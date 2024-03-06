@@ -18,6 +18,6 @@ services:
       - my_network
     restart: always
     volumes:
-      - ./app_data:/data
+      - ./app_data:/app/data
 networks:
   my_network:
